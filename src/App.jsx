@@ -15,9 +15,9 @@ const App = () => {
   ];
 
   const projects = [
-    { heading: 'Stoff2D', description: 'It is cool', imgPath: './assets/stoff2d.png'},
-    { heading: 'Stoff2D', description: 'It is cool', imgPath: './assets/stoff2d.png'},
-    { heading: 'Stoff2D', description: 'It is cool', imgPath: './assets/stoff2d.png'}
+    { heading: 'Stoff2D', description: 'It is cool', imgPath: './src/assets/stoff2d.png', github: 'https://github.com/Stoff-Studios/Stoff2D'},
+    { heading: 'Stoff2D', description: 'It is cool', imgPath: './src/assets/stoff2d.png', github: 'https://github.com/Stoff-Studios/Stoff2D'},
+    { heading: 'Stoff2D', description: 'It is cool', imgPath: './src/assets/stoff2d.png', github: 'https://github.com/Stoff-Studios/Stoff2D'}
   ]
 
   return (

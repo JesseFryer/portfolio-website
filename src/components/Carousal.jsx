@@ -48,7 +48,7 @@ const Carousel = ({ items }) => {
 
       {/* Right Arrow */}
       <button
-        className="absolute focus:outline-none right-5 p-2 text-gray-200 bg-gray-900 hover:text-yellow-600 hover:border-yellow-600 rounded-full z-10"
+        className="absolute focus:outline-none bg-gray-800 right-5 p-2 text-gray-200 bg-gray-800 hover:text-yellow-600 hover:border-yellow-600 rounded-full z-10"
         onClick={nextSlide}
       >
         &#9654;
