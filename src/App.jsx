@@ -10,9 +10,15 @@ const App = () => {
 
   const navLinks = [
     { path: '/about',    text: 'about' },
-    { path: '/projects', text: 'projects' },
+    { path: '/portfolio', text: 'portfolio' },
     { path: '/contact',  text: 'contact' }
   ];
+
+  const projects = [
+    { heading: 'Stoff2D', description: 'It is cool', imgPath: './assets/stoff2d.png'},
+    { heading: 'Stoff2D', description: 'It is cool', imgPath: './assets/stoff2d.png'},
+    { heading: 'Stoff2D', description: 'It is cool', imgPath: './assets/stoff2d.png'}
+  ]
 
   return (
     <Router>
@@ -20,7 +26,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Landing />} />
         <Route path="/about" element={<About />} />
-        <Route path="/projects" element={<Projects />} />
+        <Route path="/portfolio" element={<Projects projects={projects} />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </Router>
