@@ -13,7 +13,7 @@ const ProjectCard = ({ project }) => {
             href={project.github}
             target="_blank"
             rel="noopener noreferrer"
-            className="fa-brands fa-github text-xl text-gray-300 hover:text-gray-200 transition-colors duration-300"
+            className="fa-brands fa-github text-xl text-gray-300 hover:text-white transition-colors duration-300"
           >
             {/* Use Font Awesome GitHub icon */}
           </a>

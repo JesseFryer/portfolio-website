@@ -5,6 +5,7 @@ import Landing from './pages/Landing';
 import About from './pages/About';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
+import projects from './projects.json';
 
 const App = () => {
 
@@ -14,11 +15,11 @@ const App = () => {
     { path: '/contact',  text: 'contact' }
   ];
 
-  const projects = [
+  {/*const projects = [
     { heading: 'Stoff2D', description: 'It is cool', imgPath: './src/assets/stoff2d.png', github: 'https://github.com/Stoff-Studios/Stoff2D'},
     { heading: 'Stoff2D', description: 'It is cool', imgPath: './src/assets/stoff2d.png', github: 'https://github.com/Stoff-Studios/Stoff2D'},
     { heading: 'Stoff2D', description: 'It is cool', imgPath: './src/assets/stoff2d.png', github: 'https://github.com/Stoff-Studios/Stoff2D'}
-  ]
+  ]*/}
 
   return (
     <Router>

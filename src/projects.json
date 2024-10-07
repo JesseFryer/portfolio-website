@@ -1,0 +1,53 @@
+[
+  { 
+    "heading": "Stoff2D", 
+    "description": "It is cool",
+    "imgPath": "/images/stoff2d.png",
+    "github": "https://github.com/Stoff-Studios/Stoff2D",
+    "skills": {
+        "C": 100,
+        "C++": 0,
+        "CMake": 75,
+        "OpenGL": 85,
+        "JavaScript": 0,
+        "C#": 0,
+        "Tailwind": 0,
+        "React": 0,
+        "Blender": 0
+    }
+  },
+  { 
+    "heading": "Stoff2D", 
+    "description": "It is cool",
+    "imgPath": "/images/stoff2d.png",
+    "github": "https://github.com/Stoff-Studios/Stoff2D",
+    "skills": {
+        "C": 100,
+        "C++": 0,
+        "CMake": 75,
+        "OpenGL": 85,
+        "JavaScript": 0,
+        "C#": 0,
+        "Tailwind": 0,
+        "React": 0,
+        "Blender": 0
+    }
+  },
+  { 
+    "heading": "Stoff2D", 
+    "description": "It is cool",
+    "imgPath": "/images/stoff2d.png",
+    "github": "https://github.com/Stoff-Studios/Stoff2D",
+    "skills": {
+        "C": 50,
+        "C++": 0,
+        "CMake": 75,
+        "OpenGL": 85,
+        "JavaScript": 0,
+        "C#": 0,
+        "Tailwind": 0,
+        "React": 0,
+        "Blender": 0
+    }
+  }
+]

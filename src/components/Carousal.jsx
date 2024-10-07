@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
 
-const Carousel = ({ items }) => {
+const Carousel = ({ items, onChange }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   // Move to the next slide
   const nextSlide = () => {
     setCurrentIndex((prevIndex) => (prevIndex + 1) % items.length);
+    onChange(currentIndex);
   };
 
   // Move to the previous slide
@@ -13,13 +14,14 @@ const Carousel = ({ items }) => {
     setCurrentIndex((prevIndex) =>
       prevIndex === 0 ? items.length - 1 : prevIndex - 1
     );
+    onChange(currentIndex);
   };
 
   return (
     <div className="relative w-full flex justify-center items-center overflow-hidden">
       {/* Left Arrow */}
       <button
-        className="absolute focus:outline-none left-5 p-2 text-gray-200 bg-gray-800 hover:text-yellow-600 hover:border-yellow-600 hover:border-white transition duration-300 rounded-full z-10"
+        className="absolute focus:outline-none left-5 p-2 text-gray-300 bg-gray-800 hover:text-white hover:border-white transition duration-300 rounded-full z-10"
         onClick={prevSlide}
       >
         &#9664;
@@ -48,7 +50,7 @@ const Carousel = ({ items }) => {
 
       {/* Right Arrow */}
       <button
-        className="absolute focus:outline-none bg-gray-800 right-5 p-2 text-gray-200 bg-gray-800 hover:text-yellow-600 hover:border-yellow-600 rounded-full z-10"
+        className="absolute focus:outline-none bg-gray-800 right-5 p-2 text-gray-300 bg-gray-800 hover:text-white hover:border-white rounded-full z-10"
         onClick={nextSlide}
       >
         &#9654;
